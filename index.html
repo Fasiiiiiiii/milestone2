@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Resume Builder Faisal Zaman</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name: </label>
+            <input type="text"id="Name" name="name" required><br>
+            <label for="Email">Email </label>
+            <input type="email"id="email" name="email" required>
+            <label for="phone">Phone </label>
+            <input type="cont" id="phone" name="phone" required>
+            <label for="Address">Address </label>
+            <input type="add" id="add" name="phone" required>
+            <!--Profile picture-->
+            <label for="--Profilepicture">Profilepicture</label>
+            <input type="file"id="Profilepicture"name="Profilepicture"accept="image/*"required>
+            
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education</label>
+            <textarea id="education" name="education" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="Work Experience">Work Experience</label>
+            <textarea id="Work Experience" name="Work Experience" rows="5" required></textarea>
+        </fieldset>
+
+
+        </fieldset>
+            <legend>Skills</legend>
+            <label for="Skills">Skills</label>
+            <textarea id="Skills" name="Skills" rows="5" required></textarea>
+        </fieldset>
+
+
+
+        <button type="submit">Generate Resume Below</button>
+    </form>
+    
+</body>
+</html>
